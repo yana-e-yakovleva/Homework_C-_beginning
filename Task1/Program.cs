@@ -2,6 +2,10 @@
 int numberB = int.Parse(Console.ReadLine());
 
 if (numberA > numberB)
-{Console.WriteLine(numberA);}
+{Console.WriteLine(numberA);
+Console.WriteLine("больше");
+Console.WriteLine(numberB);
+Console.WriteLine("меньше");}
 
-else {Console.WriteLine(numberB);}
+if (numberA == numberB)
+{Console.WriteLine("Значения равны");}
